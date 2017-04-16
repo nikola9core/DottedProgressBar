@@ -12,7 +12,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ![alt tag](https://gifyu.com/images/dotted-progress-bar-ezgif-480.gif)
 
 ## Requirements
-* iOS 8 sdk
+* iOS 8.0+
+* Swift 3.0+
 
 ## Installation
 
@@ -31,8 +32,8 @@ import DottedProgressBar
 Initialize `DottedProgressBar` in one line of code
 ```swift
 let progressBar = DottedProgressBar(frame: CGRect(x: 50, y: 50, width: 200, height: 20),
-numberOfDots: 6,
-initialProgress: 1)
+                                    numberOfDots: 6,
+                                    initialProgress: 1)
 view.addSubview(progressBar)
 ```
 
@@ -40,10 +41,10 @@ view.addSubview(progressBar)
 ```swift
 let progressBar = DottedProgressBar()
 progressBar.appearance = DottedProgressBar.DottedProgressAppearance(
-dotRadius: 8.0,
-dotsColor: UIColor.orange.withAlphaComponent(0.5),
-dotsProgressColor: UIColor.red,
-backColor: UIColor.clear
+    dotRadius: 8.0,
+    dotsColor: UIColor.orange.withAlphaComponent(0.5),
+    dotsProgressColor: UIColor.red,
+    backColor: UIColor.clear
 )
 view.addSubview(progressBar)
 progressBar.frame = CGRect(x: 50, y: 50, width: 200, height: 20)
