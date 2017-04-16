@@ -7,25 +7,24 @@
 //
 
 import UIKit
-import Foundation
 import DottedProgressBar
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let progressBar = DottedProgressBar()
         
         //appearance
-        progressBar.appearance = DottedProgressBar.DottedProgressAppearance(
+        progressBar.progressAppearance = DottedProgressBar.DottedProgressAppearance(
             dotRadius: 8.0,
             dotsColor: UIColor.orange.withAlphaComponent(0.4),
             dotsProgressColor: UIColor.red,
             backColor: UIColor.clear
         )
         
-        progressBar.frame = CGRect(x: 85, y: 50, width: 205, height: 20)
+        progressBar.frame = CGRect(x: 50, y: 50, width: 200, height: 20)
         view.addSubview(progressBar)
         
         //set number of steps and current progress
@@ -34,14 +33,17 @@ class ViewController: UIViewController {
         
         //customize animation
         progressBar.dotsNumberChangeAnimationDuration = 0.6
-        progressBar.progressChangeAnimationDuration = 0.69
+        progressBar.progressChangeAnimationDuration = 0.7
         progressBar.pauseBetweenConsecutiveAnimations = 1.0
         
+        //perform animations
+        progressBar.setProgress(4)
+        progressBar.setNumberOfDots(7)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-
+    
 }
 

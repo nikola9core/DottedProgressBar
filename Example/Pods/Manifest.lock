@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DottedProgressBar: 4d1394f39c9e969cc3a0a02751b984b765691091
+  DottedProgressBar: b472d71795bbd4ea6b516bfd07f856ae4b577a33
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
 

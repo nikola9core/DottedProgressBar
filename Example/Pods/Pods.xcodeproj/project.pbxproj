@@ -12,14 +12,13 @@
 		07722FBCF6B380961B9D2832D5883F45 /* BeGreaterThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEE1F436B68692319DE23FF7A16197E /* BeGreaterThan.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		0AEC20AACF9B10846830274E3B2AA6FD /* BeLogical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226C1AC4144C4405F39189731DF06CEC /* BeLogical.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		0ECEEBC712D404AA6CF1E76A9284BFF9 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4B011BF1B4ECE6DC8D463CBA2E5EF7 /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0ED460F5A51EDF23F9186EEBBC14F8FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
 		10546AAD48AEB559B7F379F873BC9C36 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B9FC85D7FEB2B0433347BA137CC7E1 /* QuickSelectedTestSuiteBuilder.swift */; };
 		110A640A9BE45841BA938B4C29EF5446 /* ThrowAssertion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0F33EFE650B5CE4774260C8F19455E /* ThrowAssertion.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		1251FBEA4C6AEC5984323F114FCBC5A3 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE05FF5E6FC72D2287373D241DFBB6F2 /* HooksPhase.swift */; };
 		127CD37052B8E0BC645D83D4664F59D4 /* NMBStringify.m in Sources */ = {isa = PBXBuildFile; fileRef = 856B2E5E4EC8E2BD9ED45AAD6930A672 /* NMBStringify.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		15971118688F53384BCEBF39C6E88AFE /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E5C9CD6DE12A0615BB5F68D0BE93AB /* QCKDSL.m */; };
 		17261E344C2027602431A636759AC7F2 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627AA9D56F221212717BC6C0D69D5091 /* DSL.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
-		1B304436C66FCA6DCB7BAC29E20D1661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
-		1BB8DA0CCA7EFDC6D330E34C58B9C501 /* DottedProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0497B495E2C17660E7AD9DD906B306 /* DottedProgressBar-dummy.m */; };
 		1C50F54510D5C2B2AD84D7B74A6EDEBB /* BeGreaterThanOrEqualTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9265D9D90339F897C0C6F78088E7BEB /* BeGreaterThanOrEqualTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		1C7CA1FAFBF8B865596C739FEA39CDEE /* DSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1B940CAE99BBBBC563963CD22996B /* DSL.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		1EE33891FD540DC9186C89AC4DD7F7A0 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD3BF5EB0A249E68523B43B6402EA1C /* World.swift */; };
@@ -33,6 +32,7 @@
 		3F0E4298366EE89D5F442D76DEE92C9D /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E2114ED8AE0D3C939FFE5084E2DAEC /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		469E9C3ED9FD6009F7C9AAF9E537E212 /* Nimble.h in Headers */ = {isa = PBXBuildFile; fileRef = CE7DD158EC41F47A2796AB19C2CD1AD8 /* Nimble.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A293EBFB76134DA55BAC09E40BE9AD7 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15A0E5C2D8902D8B3F11BE86DE704B8 /* ErrorUtility.swift */; };
+		4D4FBD61C90739CB318D8A1A2486A1E8 /* DottedProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7A039E9103252C49CC3C24DE9F1EC1 /* DottedProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F3F103945CC52D0A3B8A891BB0E21C4 /* RaisesException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30778608352B15B9CFC7475AD8F932AB /* RaisesException.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		50B80F12A9BAE302F07F6CF94752F462 /* mach_excServer.c in Sources */ = {isa = PBXBuildFile; fileRef = 0BC4F2CA1ACAB7C5DC246E5970464CA7 /* mach_excServer.c */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		54FCADDA1843B9C29D7221B1F3046050 /* Pods-DottedProgressBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D56E8986C03F6AFB7231C73C8936A11D /* Pods-DottedProgressBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -54,6 +54,7 @@
 		7714AF96A49DB1A8B8970C2F9E8B5080 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD1C4C62388DB655C455E30CDF8012B /* QuickConfiguration.m */; };
 		78F3DE174B4F8D368EF8EEFD7EE62087 /* BeVoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C64DCE9D714CA88C06BDCC413FD3661 /* BeVoid.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		79A3DC1C668A97AD346B5915A266CDF7 /* Pods-DottedProgressBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 384ED4BC8B09854902B10A7C256D8E41 /* Pods-DottedProgressBar_Example-dummy.m */; };
+		7B489C29B729C9A0126260AF33885E40 /* DottedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F78149887875495AB68A87AF53CE35F /* DottedProgressBar.swift */; };
 		7BDCC3232E79151675F3F01584AC00D0 /* Pods-DottedProgressBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D81AC40E9D6FC23EF011D1D41290A273 /* Pods-DottedProgressBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7D6269A3CFE53C28DAA6B92E8FC017A7 /* FailureMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CEB9B86795A0FDAA385DB81A49672B /* FailureMessage.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		7D67451B1BD11CB42899E41DCD018489 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FBDD60AB5EC0183A198A13D9A5D7BCE /* XCTest.framework */; };
@@ -78,14 +79,14 @@
 		9E95D6E15DBE9B0FC92AAF60D42D1464 /* Nimble-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F795FA3DE9E15CB7DD017F791C55A8AC /* Nimble-dummy.m */; };
 		A33F1754198E8E8CCC7087F6176FFDC8 /* BeIdenticalTo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FFD83D547B8B236BCBB6812BC65762 /* BeIdenticalTo.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		A448F837592E21D9387322E8DA0DD93F /* BeAnInstanceOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97C4E97A47F53078887A61504367F9A /* BeAnInstanceOf.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		A7FE78165494584499D96330A555BF45 /* DottedBarAnimationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFACD862EA8DBB7DDB3E9947DE1D859 /* DottedBarAnimationQueue.swift */; };
 		A91166D0A5E8F1D5D5377622C381C045 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9A478DF22318E51905AFC8BF831B2D /* Match.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		AB255C27EF10E742C6567775022F49D5 /* BeginWith.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C53CB242E67876DD3964EC5C775479 /* BeginWith.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		AC0B24EF198E3BEDFCC9F25D7B8EEDAB /* NMBObjCMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEC90FE3EA43490331DC53C67E7DE5B /* NMBObjCMatcher.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		AC29CC89E22273BF0D0DC2C841B7524C /* Async.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69EC1174FCE1660F05AF470B443E0E7 /* Async.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
+		AD376E11493FD043372FB60052FB9E4C /* DottedProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0497B495E2C17660E7AD9DD906B306 /* DottedProgressBar-dummy.m */; };
 		B093484B1637B3D3AF65DF2232FDBADC /* mach_excServer.h in Headers */ = {isa = PBXBuildFile; fileRef = B85EE744366A34C7FDACC881DF2B63AB /* mach_excServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6053AA5F774F26B982D3B1E35AA6F80 /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEA58BA3A98ABA9AF85ACD8AE3CED36 /* ExampleGroup.swift */; };
-		B7D76D251EA3EC7800E5E3E4 /* DottedBarAnimationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D76D241EA3EC7800E5E3E4 /* DottedBarAnimationQueue.swift */; };
-		B7D76D271EA3ECB800E5E3E4 /* DottedProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D76D261EA3ECB800E5E3E4 /* DottedProgressBar.swift */; };
 		B7F8D80CAC6AA6230CD71CDD43B160F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5D8173434FE00016739EAFDEFEA9313 /* Foundation.framework */; };
 		B9BD565DAB07F8E2288A960A1D3EFAC1 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1FA806FF532E4E4DF8E6B4FFEB9C6 /* MatcherFunc.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		B9F21F4E98BF32A3220883EC151E9DDF /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81E409DD20CA59AA8A9A08E2B0B1B5F /* NSBundle+CurrentTestBundle.swift */; };
@@ -102,7 +103,6 @@
 		CE3FA6AE0944D4AE737F0E57CFF4A615 /* HaveCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22155F3C9AB9685BF4ED3A389D109A /* HaveCount.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		CE4CEF6328E255B380E2B2692B351CF8 /* MatchError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91D06EDAC9BBAD13C3148F1E86A9AD4 /* MatchError.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		CF5D6A0073E08EDFC71153F2A8B4EF71 /* Pods-DottedProgressBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DACD5AE29BB2055880443B93E9D214 /* Pods-DottedProgressBar_Tests-dummy.m */; };
-		CFFDD45FFEFC2809C78EE43CBC3204A5 /* DottedProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7A039E9103252C49CC3C24DE9F1EC1 /* DottedProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D88575ED37BC462E8130CDBEFE9EA308 /* XCTestObservationCenter+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A4CF4AA34D746BEB8F62EA84D9F202 /* XCTestObservationCenter+Register.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		D8C85FAE759918B8C4A1FADE1830983F /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C2AD2F63645F36689BC3DF18067258 /* QuickTestSuite.swift */; };
 		DC32331BE565888E694E1321BB1D80F5 /* NMBExceptionCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 86806CF3A6F7FB54DF0EEB9134380E4E /* NMBExceptionCapture.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -140,7 +140,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E34E45E48970F619728F1C783D323862;
+			remoteGlobalIDString = 00955D3877D7D5E23B1782F94F715F32;
 			remoteInfo = DottedProgressBar;
 		};
 /* End PBXContainerItemProxy section */
@@ -188,6 +188,7 @@
 		4CEE6D090220683EB93ACD11A04038DD /* CwlCatchBadInstruction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchBadInstruction.m; path = Sources/Lib/CwlPreconditionTesting/CwlPreconditionTesting/CwlCatchBadInstruction.m; sourceTree = "<group>"; };
 		4EE1F2D1C9D5935F6B6B5CC49C89E323 /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/Nimble/Utils/Errors.swift; sourceTree = "<group>"; };
 		4F0F33EFE650B5CE4774260C8F19455E /* ThrowAssertion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowAssertion.swift; path = Sources/Nimble/Matchers/ThrowAssertion.swift; sourceTree = "<group>"; };
+		4F78149887875495AB68A87AF53CE35F /* DottedProgressBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DottedProgressBar.swift; sourceTree = "<group>"; };
 		4FBF7128876ED36020056A396B66AC27 /* ThrowError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThrowError.swift; path = Sources/Nimble/Matchers/ThrowError.swift; sourceTree = "<group>"; };
 		5058B4852C449730EE28E5F2CD349B24 /* EndWith.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EndWith.swift; path = Sources/Nimble/Matchers/EndWith.swift; sourceTree = "<group>"; };
 		525B5EB32452EE8123EA3E65FDC81622 /* PostNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PostNotification.swift; path = Sources/Nimble/Matchers/PostNotification.swift; sourceTree = "<group>"; };
@@ -226,6 +227,7 @@
 		9A4149CBE238527B194D1F9ABA8B1425 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
 		9AD041EED5C6A1B6A82C71C9E5AA3FE1 /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Quick.modulemap; sourceTree = "<group>"; };
 		9BB1FA4E1DD555F459E31D6ECB9DB70C /* CwlCatchException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CwlCatchException.h; path = Sources/Lib/CwlPreconditionTesting/CwlCatchException/CwlCatchException/CwlCatchException.h; sourceTree = "<group>"; };
+		9BFACD862EA8DBB7DDB3E9947DE1D859 /* DottedBarAnimationQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DottedBarAnimationQueue.swift; sourceTree = "<group>"; };
 		9C33CF42AD6E1A448E98D4CAFB155DAA /* BeEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeEmpty.swift; path = Sources/Nimble/Matchers/BeEmpty.swift; sourceTree = "<group>"; };
 		9C7B2E4FE5801A893DA4774DEC2C3985 /* BeNil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeNil.swift; path = Sources/Nimble/Matchers/BeNil.swift; sourceTree = "<group>"; };
 		9D183A2013A60DE04DC9CAA60EF7A39A /* Nimble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -240,8 +242,6 @@
 		B2DAB46B24EC3101A9C139178DD3C5F2 /* DSL+Wait.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DSL+Wait.swift"; path = "Sources/Nimble/DSL+Wait.swift"; sourceTree = "<group>"; };
 		B4E171821B1D0ED4DB541E993A5B631F /* CwlCatchException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CwlCatchException.m; path = Sources/Lib/CwlPreconditionTesting/CwlCatchException/CwlCatchException/CwlCatchException.m; sourceTree = "<group>"; };
 		B6B2A17BB28DEFC5192E0139528691D7 /* Pods-DottedProgressBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DottedProgressBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B7D76D241EA3EC7800E5E3E4 /* DottedBarAnimationQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DottedBarAnimationQueue.swift; sourceTree = "<group>"; };
-		B7D76D261EA3ECB800E5E3E4 /* DottedProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DottedProgressBar.swift; sourceTree = "<group>"; };
 		B85EE744366A34C7FDACC881DF2B63AB /* mach_excServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mach_excServer.h; path = Sources/Lib/CwlPreconditionTesting/CwlPreconditionTesting/mach_excServer.h; sourceTree = "<group>"; };
 		B89E09AD26974F1849359B57FE32A6AA /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/QuickObjectiveC/QuickSpec.m; sourceTree = "<group>"; };
 		B93CBD5A8C953715B286CC18EBD89EA5 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
@@ -316,19 +316,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5626EA640197C9894C6B97CB6FEED48 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1B304436C66FCA6DCB7BAC29E20D1661 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DBE2CE2F5ED086FC1DD44D4B176AEA5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				71A620E4CCE2D7CCF6A122DC1BAA6622 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC6D9FFDE1F68F993FF0166EEC79EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ED460F5A51EDF23F9186EEBBC14F8FD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,15 +371,6 @@
 				9F8FF48BA1B459080AB7C8E578367A73 /* Support Files */,
 			);
 			path = Quick;
-			sourceTree = "<group>";
-		};
-		1523FBB137DA7DE22D53E18999987BA7 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B7D76D261EA3ECB800E5E3E4 /* DottedProgressBar.swift */,
-				B7D76D241EA3EC7800E5E3E4 /* DottedBarAnimationQueue.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		27E28AF62005EAF32034C7AA0532369D /* Pods-DottedProgressBar_Example */ = {
@@ -432,7 +423,7 @@
 		6C37CD864D26FE7FFB1DBF0AE078DC6C /* DottedProgressBar */ = {
 			isa = PBXGroup;
 			children = (
-				C4B6F43BE8D97ACB35046C0217801CEA /* DottedProgressBar */,
+				AC32E89B96D59298575B2FE3742C7562 /* DottedProgressBar */,
 				DE92F649A1028C691666A849B962402A /* Support Files */,
 			);
 			name = DottedProgressBar;
@@ -564,6 +555,14 @@
 			path = "../Target Support Files/Quick";
 			sourceTree = "<group>";
 		};
+		AC32E89B96D59298575B2FE3742C7562 /* DottedProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				BC7B59494E53E6A4AD07502E5CE3E98E /* Classes */,
+			);
+			path = DottedProgressBar;
+			sourceTree = "<group>";
+		};
 		B6DE1AEC0BE6A349794388352E252473 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,12 +571,13 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		C4B6F43BE8D97ACB35046C0217801CEA /* DottedProgressBar */ = {
+		BC7B59494E53E6A4AD07502E5CE3E98E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1523FBB137DA7DE22D53E18999987BA7 /* Classes */,
+				4F78149887875495AB68A87AF53CE35F /* DottedProgressBar.swift */,
+				9BFACD862EA8DBB7DDB3E9947DE1D859 /* DottedBarAnimationQueue.swift */,
 			);
-			path = DottedProgressBar;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		DE92F649A1028C691666A849B962402A /* Support Files */ = {
@@ -652,11 +652,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97520BD83A228BC2828148B2A29C25F9 /* Headers */ = {
+		98FA8BB7BA0FAA2CC586755A69CEA13B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFFDD45FFEFC2809C78EE43CBC3204A5 /* DottedProgressBar-umbrella.h in Headers */,
+				4D4FBD61C90739CB318D8A1A2486A1E8 /* DottedProgressBar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +678,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		00955D3877D7D5E23B1782F94F715F32 /* DottedProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245782F8525AF82F6E0E39E1A818BC1E /* Build configuration list for PBXNativeTarget "DottedProgressBar" */;
+			buildPhases = (
+				05B2AAD025DFB4652EF7D6445EC019FD /* Sources */,
+				FFC6D9FFDE1F68F993FF0166EEC79EC0 /* Frameworks */,
+				98FA8BB7BA0FAA2CC586755A69CEA13B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DottedProgressBar;
+			productName = DottedProgressBar;
+			productReference = F2491FEDA1D5DB09A0FA37FBBEE3F83E /* DottedProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		1321E318D10CFDC9F5B93A7952492CCD /* Nimble */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1DBAFB75A3AF98C8C6B0863BDC7A2E3 /* Build configuration list for PBXNativeTarget "Nimble" */;
@@ -749,23 +766,6 @@
 			productReference = FB95944BB8AAE8F4593C14BD4605FC86 /* Quick.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E34E45E48970F619728F1C783D323862 /* DottedProgressBar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AF0C82A7C8FFC3056750879E47BEF8CD /* Build configuration list for PBXNativeTarget "DottedProgressBar" */;
-			buildPhases = (
-				78D07D7C9653F210350B8934A30F53A1 /* Sources */,
-				C5626EA640197C9894C6B97CB6FEED48 /* Frameworks */,
-				97520BD83A228BC2828148B2A29C25F9 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DottedProgressBar;
-			productName = DottedProgressBar;
-			productReference = F2491FEDA1D5DB09A0FA37FBBEE3F83E /* DottedProgressBar.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -787,7 +787,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E34E45E48970F619728F1C783D323862 /* DottedProgressBar */,
+				00955D3877D7D5E23B1782F94F715F32 /* DottedProgressBar */,
 				1321E318D10CFDC9F5B93A7952492CCD /* Nimble */,
 				A714850CD6464F4D92AF20E12FD94C23 /* Pods-DottedProgressBar_Example */,
 				17DB23F268E6E5C123AA95F851C5B78D /* Pods-DottedProgressBar_Tests */,
@@ -802,6 +802,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF5D6A0073E08EDFC71153F2A8B4EF71 /* Pods-DottedProgressBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05B2AAD025DFB4652EF7D6445EC019FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FE78165494584499D96330A555BF45 /* DottedBarAnimationQueue.swift in Sources */,
+				AD376E11493FD043372FB60052FB9E4C /* DottedProgressBar-dummy.m in Sources */,
+				7B489C29B729C9A0126260AF33885E40 /* DottedProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -869,16 +879,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78D07D7C9653F210350B8934A30F53A1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B7D76D271EA3ECB800E5E3E4 /* DottedProgressBar.swift in Sources */,
-				1BB8DA0CCA7EFDC6D330E34C58B9C501 /* DottedProgressBar-dummy.m in Sources */,
-				B7D76D251EA3EC7800E5E3E4 /* DottedBarAnimationQueue.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D8477188AA26A64FFB695B5F607F4206 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -930,7 +930,7 @@
 		B5FC0C481535D25D0DA64A0C6851F983 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DottedProgressBar;
-			target = E34E45E48970F619728F1C783D323862 /* DottedProgressBar */;
+			target = 00955D3877D7D5E23B1782F94F715F32 /* DottedProgressBar */;
 			targetProxy = E9B00D380A1C941FB42C4ECD149ED633 /* PBXContainerItemProxy */;
 		};
 		E9944CAEE2ACCB57D7F05539F323B3A2 /* PBXTargetDependency */ = {
@@ -976,6 +976,40 @@
 			};
 			name = Release;
 		};
+		1CB2B2A6499C2B5F1E00E350F895B3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF940B3B572E1BF6A8EF204FADB31B45 /* DottedProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DottedProgressBar/DottedProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DottedProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DottedProgressBar/DottedProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DottedProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		25B40236A805FF65BA5EA75DA41DE112 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 473162EAADE47F759500100475A4A4BE /* Quick.xcconfig */;
@@ -1009,6 +1043,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		2AFA157ED9E0F2D6C99FB3DEDC3B21CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF940B3B572E1BF6A8EF204FADB31B45 /* DottedProgressBar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DottedProgressBar/DottedProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DottedProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DottedProgressBar/DottedProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DottedProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1057,40 +1126,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		3CC122AEE93C511E2F3FD863002EC36B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF940B3B572E1BF6A8EF204FADB31B45 /* DottedProgressBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DottedProgressBar/DottedProgressBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DottedProgressBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DottedProgressBar/DottedProgressBar.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = DottedProgressBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		44ADC9352288078949D2DE1DC81120F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1360,44 +1395,18 @@
 			};
 			name = Debug;
 		};
-		D8A89B7BF9276047C5E958D9A66C5452 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF940B3B572E1BF6A8EF204FADB31B45 /* DottedProgressBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DottedProgressBar/DottedProgressBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DottedProgressBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DottedProgressBar/DottedProgressBar.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = DottedProgressBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		245782F8525AF82F6E0E39E1A818BC1E /* Build configuration list for PBXNativeTarget "DottedProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AFA157ED9E0F2D6C99FB3DEDC3B21CB /* Debug */,
+				1CB2B2A6499C2B5F1E00E350F895B3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1412,15 +1421,6 @@
 			buildConfigurations = (
 				44ADC9352288078949D2DE1DC81120F3 /* Debug */,
 				B621FC2320AF2B9720F12B15981DF043 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AF0C82A7C8FFC3056750879E47BEF8CD /* Build configuration list for PBXNativeTarget "DottedProgressBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8A89B7BF9276047C5E958D9A66C5452 /* Debug */,
-				3CC122AEE93C511E2F3FD863002EC36B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
