@@ -1,4 +1,4 @@
-# DottedProgressBar
+![alt tag](https://s24.postimg.org/ok064585x/dotted-progress-title.png)
 
 [![CI Status](http://img.shields.io/travis/nikola9core/DottedProgressBar.svg?style=flat)](https://travis-ci.org/nikola9core/DottedProgressBar)
 [![Version](https://img.shields.io/cocoapods/v/DottedProgressBar.svg?style=flat)](http://cocoapods.org/pods/DottedProgressBar)
