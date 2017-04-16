@@ -10,6 +10,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+* iOS 8 sdk
 
 ## Installation
 
@@ -19,10 +20,55 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "DottedProgressBar"
 ```
+## Easy to use
+Import library
+```swift
+import DottedProgressBar
+```
+
+Initialize `DottedProgressBar` in one line of code
+```swift
+let progressBar = DottedProgressBar(frame: CGRect(x: 50, y: 50, width: 200, height: 20),
+numberOfDots: 6,
+initialProgress: 1)
+view.addSubview(progressBar)
+```
+
+## Custom appearance
+```swift
+let progressBar = DottedProgressBar()
+progressBar.appearance = DottedProgressBar.DottedProgressAppearance(
+dotRadius: 8.0,
+dotsColor: UIColor.orange.withAlphaComponent(0.5),
+dotsProgressColor: UIColor.red,
+backColor: UIColor.clear
+)
+view.addSubview(progressBar)
+progressBar.frame = CGRect(x: 50, y: 50, width: 200, height: 20)
+
+progressBar.setNumberOfDots(6, animated: false)
+progressBar.setProgress(1, animated: false)
+```
+
+## Animations
+Animations can be called repeatedly because they have its own queue. Each animation will wait previous to finish and then will be executed.
+```swift
+self.setProgress(4, animated: true)
+self.setNumberOfDots(8, animated: true)
+```
+
+## Customize animations
+
+Customize duration of animations and pause between consecutive animations
+```swift
+progressBar.dotsNumberChangeAnimationDuration = 0.6
+progressBar.progressChangeAnimationDuration = 0.7
+progressBar.pauseBetweenConsecutiveAnimations = 1.0
+```
 
 ## Author
 
-nikola9core, nikola9core@yahoo.com
+Nikola Corlija
 
 ## License
 

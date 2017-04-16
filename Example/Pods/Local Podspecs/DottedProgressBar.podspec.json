@@ -1,0 +1,22 @@
+{
+  "name": "DottedProgressBar",
+  "version": "0.1.0",
+  "summary": "A short description of DottedProgressBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/nikola9core/DottedProgressBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "nikola9core": "nikola9core@yahoo.com"
+  },
+  "source": {
+    "git": "https://github.com/nikola9core/DottedProgressBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DottedProgressBar/Classes/**/*"
+}

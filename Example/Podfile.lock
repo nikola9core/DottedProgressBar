@@ -1,0 +1,22 @@
+PODS:
+  - DottedProgressBar (0.1.0)
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+
+DEPENDENCIES:
+  - DottedProgressBar (from `../`)
+  - Nimble (~> 5.1.1)
+  - Quick (~> 1.0.0)
+
+EXTERNAL SOURCES:
+  DottedProgressBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DottedProgressBar: 4d1394f39c9e969cc3a0a02751b984b765691091
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+
+PODFILE CHECKSUM: c830cabc7c7fd030c18efb972238d2f4c854d31f
+
+COCOAPODS: 1.2.1

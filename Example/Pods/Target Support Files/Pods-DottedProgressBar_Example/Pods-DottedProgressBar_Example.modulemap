@@ -1,0 +1,6 @@
+framework module Pods_DottedProgressBar_Example {
+  umbrella header "Pods-DottedProgressBar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
