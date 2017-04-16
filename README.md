@@ -9,6 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![alt tag](https://gifyu.com/images/dotted-progress-bar-ezgif-480.gif)
+
 ## Requirements
 * iOS 8 sdk
 
