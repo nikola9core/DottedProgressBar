@@ -1,6 +1,6 @@
 ![alt tag](https://s24.postimg.org/ok064585x/dotted-progress-title.png)
 
-[![CI Status](http://img.shields.io/travis/nikola9core/DottedProgressBar.svg?style=flat)](https://travis-ci.org/nikola9core/DottedProgressBar)
+[comment]: # [![CI Status](http://img.shields.io/travis/nikola9core/DottedProgressBar.svg?style=flat)](https://travis-ci.org/nikola9core/DottedProgressBar)
 [![Version](https://img.shields.io/cocoapods/v/DottedProgressBar.svg?style=flat)](http://cocoapods.org/pods/DottedProgressBar)
 [![License](https://img.shields.io/cocoapods/l/DottedProgressBar.svg?style=flat)](http://cocoapods.org/pods/DottedProgressBar)
 [![Platform](https://img.shields.io/cocoapods/p/DottedProgressBar.svg?style=flat)](http://cocoapods.org/pods/DottedProgressBar)
