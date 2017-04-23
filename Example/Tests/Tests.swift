@@ -3,6 +3,7 @@
 import Quick
 import Nimble
 import DottedProgressBar
+import UIKit
 
 class TableOfContentsSpec: QuickSpec {
     override func spec() {
@@ -11,7 +12,7 @@ class TableOfContentsSpec: QuickSpec {
             it("count dots") {
                 let progressBar = DottedProgressBar()
                 progressBar.setNumberOfDots(6, animated: false)
-                expect(progressBar.subviews.count) == 6
+                expect(progressBar.subviews.count).to(equal(6))
             }
             
         }
