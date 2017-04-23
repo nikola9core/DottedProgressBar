@@ -68,12 +68,11 @@ open class DottedProgressBar: UIView {
         setup()
     }
     
-    /**
-     Sets a number of steps of progress bar with or without animation.
-     
-     - parameter count:    Number of steps/dots.
-     - parameter animated: Flag for animate effect.
-     */
+    /// Sets a number of steps of progress bar with or without animation.
+    ///
+    /// - Parameters:
+    ///   - count: Number of steps/dots.
+    ///   - animated: Flag for animate effect.
     open func setNumberOfDots(_ count: Int, animated: Bool = true) {
         animationQueue.enqueue(DottedBarAnimation(type: .numberChange, value: count, animated: animated))
         if !isAnimatingCurrently {
@@ -81,12 +80,11 @@ open class DottedProgressBar: UIView {
         }
     }
     
-    /**
-     Sets a number of filled dots as current progress with or without animation.
-     
-     - parameter count:    Number of steps/dots of current progress.
-     - parameter animated: Flag for animate effect.
-     */
+    /// Sets a number of filled dots as current progress with or without animation.
+    ///
+    /// - Parameters:
+    ///   - progress: Number of steps/dots of current progress.
+    ///   - animated: Flag for animate effect.
     open func setProgress(_ progress: Int, animated: Bool = true) {
         animationQueue.enqueue(DottedBarAnimation(type: .progresChange, value: progress, animated: animated))
         if !isAnimatingCurrently {
@@ -126,11 +124,10 @@ private extension DottedProgressBar {
         }
     }
     
-    /**
-     Calculating frame for given index of dot, supports vertical and horizontal alignment.
-     
-     - parameter index: Index of dot (including 0).
-     */
+    /// Calculating frame for given index of dot, supports vertical and horizontal alignment.
+    ///
+    /// - Parameter index: Index of dot (including 0).
+    /// - Returns: Frame rectangle for given dot index
     func dotFrame(forIndex index: Int) -> CGRect {
         guard index >= 0 else {
             return dotFrame(forIndex: 0)
@@ -146,9 +143,7 @@ private extension DottedProgressBar {
         }
     }
     
-    /**
-     Starting execution of all queued animations.
-     */
+    /// Starting execution of all queued animations.
     func performQueuedAnimations() {
         if let nextAnimation = animationQueue.dequeue() {
             isAnimatingCurrently = true
@@ -177,6 +172,9 @@ private extension DottedProgressBar {
         }
     }
     
+    /// Performs animation for changing the number of dots
+    ///
+    /// - Parameter animation: The animation model
     func animateNumberChange(animation: DottedBarAnimation) {
         numberOfDots = animation.value
         
@@ -234,6 +232,9 @@ private extension DottedProgressBar {
         }
     }
     
+    /// Performs animation for changing the current progress
+    ///
+    /// - Parameter animation: The animation model
     func animateProgress(animation: DottedBarAnimation) {
         previousProgress = currentProgress
         currentProgress = animation.value

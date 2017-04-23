@@ -1,6 +1,6 @@
 ![alt tag](https://s24.postimg.org/ok064585x/dotted-progress-title.png)
 
-<!--[comment]: # [![CI Status](http://img.shields.io/travis/nikola9core/DottedProgressBar.svg?style=flat)](https://travis-ci.org/nikola9core/DottedProgressBar)-->
+[![CI Status](http://img.shields.io/travis/nikola9core/DottedProgressBar.svg?style=flat)](https://travis-ci.org/nikola9core/DottedProgressBar)
 [![Version](https://img.shields.io/cocoapods/v/DottedProgressBar.svg?style=flat)](http://cocoapods.org/pods/DottedProgressBar)
 [![License](https://img.shields.io/cocoapods/l/DottedProgressBar.svg?style=flat)](http://cocoapods.org/pods/DottedProgressBar)
 [![Platform](https://img.shields.io/cocoapods/p/DottedProgressBar.svg?style=flat)](http://cocoapods.org/pods/DottedProgressBar)
@@ -68,10 +68,6 @@ progressBar.dotsNumberChangeAnimationDuration = 0.6
 progressBar.progressChangeAnimationDuration = 0.7
 progressBar.pauseBetweenConsecutiveAnimations = 1.0
 ```
-
-## Author
-
-Nikola Corlija
 
 ## License
 

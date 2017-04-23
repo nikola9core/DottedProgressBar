@@ -10,7 +10,7 @@ import Foundation
 
 struct DottedBarAnimationQueue {
     
-    //can be optimized as linked list
+    ///can be optimized as linked list
     var queue = [DottedBarAnimation]()
     
     var isEmpty: Bool {
@@ -45,18 +45,21 @@ struct DottedBarAnimation {
     var animated: Bool = false
 }
 
+/// Animation type while setting number of dots or current progress
+///
+/// - numberChange: Change of number of progress steps
+/// - progresChange: Change of progress
 enum DottedBarAnimationType {
     case numberChange
     case progresChange
 }
 
 class DottedBarUtility {
-    /**
-     Utility static function for delaying job on main thread.
-     
-     - parameter delay:   The time interval for delaying in seconds.
-     - parameter closure: The code to be executed after delay time passes.
-     */
+    /// Utility static function for delaying job on main thread.
+    ///
+    /// - Parameters:
+    ///   - delay: The time interval for delaying in seconds.
+    ///   - closure: The code to be executed after delay time passes.
     static func delay(_ delay: Double, closure: @escaping () -> ()) {
         DispatchQueue.main.asyncAfter(
             deadline: DispatchTime.now() + delay, execute: closure
