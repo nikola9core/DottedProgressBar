@@ -54,13 +54,13 @@ enum DottedBarAnimationType {
     case progresChange
 }
 
-class DottedBarUtility {
+public class DottedBarUtility {
     /// Utility static function for delaying job on main thread.
     ///
     /// - Parameters:
     ///   - delay: The time interval for delaying in seconds.
     ///   - closure: The code to be executed after delay time passes.
-    static func delay(_ delay: Double, closure: @escaping () -> ()) {
+    public static func delay(_ delay: Double, closure: @escaping () -> ()) {
         DispatchQueue.main.asyncAfter(
             deadline: DispatchTime.now() + delay, execute: closure
         )
