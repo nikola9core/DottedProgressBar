@@ -10,7 +10,6 @@ import Foundation
 
 struct DottedBarAnimationQueue {
     
-    ///can be optimized as linked list
     var queue = [DottedBarAnimation]()
     
     var isEmpty: Bool {

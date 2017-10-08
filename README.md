@@ -54,7 +54,7 @@ progressBar.setProgress(1, animated: false)
 ```
 
 ## Animations
-Animations can be called repeatedly because they have its own queue. Each animation will wait previous to finish and then will be executed.
+Animations can be called repeatedly because they have theirs own queue. Each animation will wait previous to finish and then will be executed.
 ```swift
 self.setProgress(4, animated: true)
 self.setNumberOfDots(8, animated: true)
