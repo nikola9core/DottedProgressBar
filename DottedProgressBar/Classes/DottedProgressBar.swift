@@ -194,7 +194,7 @@ private extension DottedProgressBar {
 
         if numberOfDots > subviews.count {
             UIView.animate(withDuration: animation.animated ? dotsNumberChangeAnimationDuration * 0.6 : 0.0,
-                           delay: 0.0, options: UIViewAnimationOptions(), animations: {
+                           delay: 0.0, options: UIView.AnimationOptions(), animations: {
                             self.layout()
             }, completion: { _ in
                 for _ in 0 ..< (self.numberOfDots - self.subviews.count) {
@@ -206,7 +206,7 @@ private extension DottedProgressBar {
                 }
                 UIView.animate(withDuration: animation.animated ? self.dotsNumberChangeAnimationDuration * 0.4 : 0.0,
                                delay: 0.0,
-                               options: UIViewAnimationOptions(), animations: {
+                               options: UIView.AnimationOptions(), animations: {
                                 for dot in self.subviews {
                                     dot.alpha = 1
                                 }
@@ -225,7 +225,7 @@ private extension DottedProgressBar {
         } else {
             UIView.animate(withDuration: animation.animated ? self.dotsNumberChangeAnimationDuration * 0.4 : 0.0,
                            delay: 0.0,
-                           options: UIViewAnimationOptions(),
+                           options: UIView.AnimationOptions(),
                            animations: {
                             for index in (Int(self.numberOfDots)..<self.subviews.count).reversed() {
                                 self.subviews[index].alpha = 0
@@ -236,7 +236,7 @@ private extension DottedProgressBar {
                 }
                 UIView.animate(withDuration: animation.animated ? self.dotsNumberChangeAnimationDuration * 0.6 : 0.0,
                                delay: 0.0,
-                               options: UIViewAnimationOptions(),
+                               options: UIView.AnimationOptions(),
                                animations: {
                                 self.layout()
                 }, completion: { _ in
@@ -308,7 +308,7 @@ private extension DottedProgressBar {
         if animation.animated {
             UIView.animate(withDuration: progressChangeAnimationDuration * 0.3,
                            delay: progressChangeAnimationDuration * 0.7,
-                           options: UIViewAnimationOptions(),
+                           options: UIView.AnimationOptions(),
                            animations: {
                             self.walkingDot.frame = self.dotFrame(forIndex: self.currentProgress - 1)
             }, completion: { _ in
