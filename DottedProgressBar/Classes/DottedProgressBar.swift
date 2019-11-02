@@ -56,7 +56,9 @@ open class DottedProgressBar: UIView {
     fileprivate lazy var walkingDot = UIView()
     
     required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        
+        progressAppearance = DottedProgressAppearance()
+        super.init(frame: frame)
     }
     
     override public init(frame: CGRect) {
