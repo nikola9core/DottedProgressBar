@@ -58,7 +58,7 @@ open class DottedProgressBar: UIView {
     required public init?(coder aDecoder: NSCoder) {
         
         progressAppearance = DottedProgressAppearance()
-        super.init(frame: frame)
+        super.init(coder: aDecoder)
     }
     
     override public init(frame: CGRect) {
