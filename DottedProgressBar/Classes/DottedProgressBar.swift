@@ -18,15 +18,21 @@ open class DottedProgressBar: UIView {
         let dotsColor: UIColor
         let dotsProgressColor: UIColor
         let backColor: UIColor
+        let borderColor:UIColor
+        let borderWidth:CGFloat
 
         public init(dotRadius: CGFloat = 8.0,
                     dotsColor: UIColor = UIColor.orange.withAlphaComponent(0.4),
                     dotsProgressColor: UIColor = UIColor.red,
-                    backColor: UIColor = UIColor.clear) {
+                    backColor: UIColor = UIColor.clear,
+                    borderColor:UIColor = UIColor.clear,
+                    borderWidth:CGFloat = 0.0) {
             self.dotRadius = dotRadius
             self.dotsColor = dotsColor
             self.dotsProgressColor = dotsProgressColor
             self.backColor = backColor
+            self.borderWidth = borderWidth
+            self.borderColor = borderColor
         }
     }
 
@@ -73,6 +79,11 @@ open class DottedProgressBar: UIView {
         setup()
     }
 
+    open func offAnimation() {
+         dotsNumberChangeAnimationDuration = 0
+         progressChangeAnimationDuration = 0
+         pauseBetweenConsecutiveAnimations = 0 
+    }
     /// Sets a number of steps of progress bar with or without animation.
     ///
     /// - Parameters:
