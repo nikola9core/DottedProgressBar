@@ -127,6 +127,8 @@ private extension DottedProgressBar {
             dot.backgroundColor = i < currentProgress ? progressAppearance.dotsProgressColor :
                 progressAppearance.dotsColor
             dot.layer.cornerRadius = progressAppearance.dotRadius
+            dot.layer.borderColor = progressAppearance.borderColor
+            dot.layer.borderWidth = progressAppearance.borderWidth
             dot.frame = dotFrame(forIndex: i)
             addSubview(dot)
         }
@@ -135,6 +137,8 @@ private extension DottedProgressBar {
     func layout() {
         for (index, dot) in subviews.enumerated() where dot != walkingDot {
             dot.layer.cornerRadius = progressAppearance.dotRadius
+            dot.layer.borderColor = progressAppearance.borderColor
+            dot.layer.borderWidth = progressAppearance.borderWidth
             dot.frame = dotFrame(forIndex: index)
         }
     }
@@ -212,6 +216,8 @@ private extension DottedProgressBar {
                     let view = UIView()
                     view.backgroundColor = self.progressAppearance.dotsColor
                     view.layer.cornerRadius = self.progressAppearance.dotRadius
+                    view.layer.borderColor = self.progressAppearance.borderColor
+                    view.layer.borderWidth = self.progressAppearance.borderWidth
                     view.alpha = 0
                     self.addSubview(view)
                 }
@@ -272,7 +278,9 @@ private extension DottedProgressBar {
 
         if animation.animated {
             walkingDot.backgroundColor = progressAppearance.dotsProgressColor
-            walkingDot.layer.cornerRadius = progressAppearance.dotRadius
+            walkingDot.layer.cornerRadius = progressAppearance.dotRadius 
+            walkingDot.layer.borderColor = progressAppearance.borderColor
+            walkingDot.layer.borderWidth = progressAppearance.borderWidth
             walkingDot.frame = dotFrame(forIndex: previousProgress - 1)
             addSubview(walkingDot)
             walkingDot.layer.zPosition = 1
